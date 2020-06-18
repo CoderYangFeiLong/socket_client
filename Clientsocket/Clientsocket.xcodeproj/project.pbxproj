@@ -13,6 +13,7 @@
 		1F18C86D249B4F1000544760 /* ClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18C86C249B4F1000544760 /* ClientViewController.m */; };
 		1F18C86F249B4F2200544760 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18C86E249B4F2200544760 /* AppDelegate.m */; };
 		1F18C872249B50EF00544760 /* video.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F18C871249B50EF00544760 /* video.MP4 */; };
+		1F18C874249B52F700544760 /* video.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1F18C873249B52F700544760 /* video.gif */; };
 		E1F30F0485D8C250E4E0D414 /* libPods-Clientsocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAADA2C9192DE8548DD179E4 /* libPods-Clientsocket.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		1F18C86C249B4F1000544760 /* ClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientViewController.m; sourceTree = "<group>"; };
 		1F18C86E249B4F2200544760 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1F18C871249B50EF00544760 /* video.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.MP4; sourceTree = "<group>"; };
+		1F18C873249B52F700544760 /* video.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = video.gif; sourceTree = "<group>"; };
 		28DCCE7FBBE23366E56EC15F /* Pods-Clientsocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clientsocket.release.xcconfig"; path = "Target Support Files/Pods-Clientsocket/Pods-Clientsocket.release.xcconfig"; sourceTree = "<group>"; };
 		3FFFD829F8F18649C84A8606 /* Pods-Clientsocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clientsocket.debug.xcconfig"; path = "Target Support Files/Pods-Clientsocket/Pods-Clientsocket.debug.xcconfig"; sourceTree = "<group>"; };
 		AAADA2C9192DE8548DD179E4 /* libPods-Clientsocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Clientsocket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +83,7 @@
 		1F18C870249B50D900544760 /* Effects */ = {
 			isa = PBXGroup;
 			children = (
+				1F18C873249B52F700544760 /* video.gif */,
 				1F18C871249B50EF00544760 /* video.MP4 */,
 			);
 			path = Effects;
@@ -161,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F18C874249B52F700544760 /* video.gif in Resources */,
 				1F18C862249B4EDB00544760 /* LaunchScreen.storyboard in Resources */,
 				1F18C872249B50EF00544760 /* video.MP4 in Resources */,
 				1F18C85F249B4EDB00544760 /* Assets.xcassets in Resources */,
